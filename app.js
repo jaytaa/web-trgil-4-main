@@ -185,6 +185,7 @@ class Calculator {
             return eval(this.expression);
         } catch (e) {
             return 'Error';
+            
         }
     }
 }
